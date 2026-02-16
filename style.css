@@ -1,0 +1,63 @@
+body{
+background: linear-gradient(150deg, blue, red, green);
+height: 100vh;
+text-align: center;
+margin: 0;
+}
+
+.targeta{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9px;
+    margin-top: 140px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+img{
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    width: 100px;
+    -o-border-radius: 100px;
+    
+}
+input{
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+label{ border-radius:10% ; -webkit-border-radius:10% ; -moz-border-radius:10% ; -ms-border-radius:10% ; -o-border-radius:10% ; }
+
+button{
+margin-top: 9px;
+
+}
+
+#btn{
+    display: none;
+}
+
+.abrir{
+    cursor: pointer;
+    display: block;
+    padding: 15px;
+}
+
+#menu{
+    top: 0;
+    width: 250px;
+    left: -250px;
+    height: 100%;
+    background: aqua;
+    
+
+}
